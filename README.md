@@ -35,6 +35,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
+| 1 | Contains Duplicate | Easy | [Python](0217-contains-duplicate/0217-contains-duplicate.py) | hash set: compare length of original array w length of hash set array
 | 1 | Two Sum | Easy | [Python](submissions/0001-two-sum.py) | Hashmap: store number needed to reach target |
 
 ---
