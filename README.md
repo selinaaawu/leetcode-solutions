@@ -38,6 +38,8 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | 0217 | Contains Duplicate | Easy | [Python](0217-contains-duplicate/0217-contains-duplicate.py) | hash set: compare length of original array w length of hash set array |
 | 0242 | Valid Anagram | Easy | [Python](0242-valid-anagram/0242-valid-anagram.py) | hash map: map letter to occurence, check for equality
 | 0001 | Two Sum | Easy | [Python](0001-two-sum/0001-two-sum.py) | hash map: map num to index, check if difference needed is in map
+| 0049 | Group Anagrams | Medium | [Python](0049-group-anagrams/0049-group-anagrams.py) | hash map: {character frequency tuple : matching string}, return  values ONLY
+| 0347 | Top K Frequent Elements | Medium | [Python](0347-top-k-frequent-elements/0347-top-k-frequent-elements.py) | bucket sort! (1) frequency map {num : frequency}, (2) freq[i] = nums that appear i times, (3) add num to result from largest frequency until k numbers
 
 ---
 
