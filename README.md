@@ -35,8 +35,9 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| 1 | Contains Duplicate | Easy | [Python](0217-contains-duplicate/0217-contains-duplicate.py) | hash set: compare length of original array w length of hash set array
-| 1 | Two Sum | Easy | [Python](submissions/0001-two-sum.py) | Hashmap: store number needed to reach target |
+| 0217 | Contains Duplicate | Easy | [Python](0217-contains-duplicate/0217-contains-duplicate.py) | hash set: compare length of original array w length of hash set array |
+| 0242 | Valid Anagram | Easy | [Python](0242-valid-anagram/0242-valid-anagram.py) | hash map: map letter to occurence, check for equality
+| 0001 | Two Sum | Easy | [Python](0001-two-sum/0001-two-sum.py) | hash map: map num to index, check if difference needed is in map
 
 ---
 
@@ -138,19 +139,3 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Hash Table
-|  |
-| ------- |
-| [0242-valid-anagram](https://github.com/selinaaawu/leetcode-solutions/tree/master/0242-valid-anagram) |
-## String
-|  |
-| ------- |
-| [0242-valid-anagram](https://github.com/selinaaawu/leetcode-solutions/tree/master/0242-valid-anagram) |
-## Sorting
-|  |
-| ------- |
-| [0242-valid-anagram](https://github.com/selinaaawu/leetcode-solutions/tree/master/0242-valid-anagram) |
-<!---LeetCode Topics End-->
