@@ -54,11 +54,11 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| 125 | Valid Palindrome | Easy | [Python](submissions/0125-valid-palindrome.py) | Skip non-alphanumeric chars, compare left/right |
-| xxxx | Two Sum II Input Array Is Sorted | Medium | [Python]() | NOTES | 
-| xxxx | 3Sum | Medium | [Python]() | NOTES | 
-| xxxx | Container With Most Water | Medium | [Python]() | NOTES | 
-| xxxx | Trapping Rain Water | Hard | [Python]() | NOTES | 
+| 0125 | Valid Palindrome | Easy | [Python](0125-valid-palindrome/0125-valid-palindrome.py) | two pointers: opposite ends, skip non-alphanumeric chars, compare lowercase left/right letters |
+| 0167 | Two Sum II Input Array Is Sorted | Medium | [Python](0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.py) | two pointers: opposite ends, if sum too big -> decrement right, if sum too small -> increment left, return for 1-indexed array | 
+| 0015 | 3Sum | Medium | [Python](0015-3sum/0015-3sum.py) | fix one number, two pointers on opposite ends to search for remaining two, skip duplicates, if sum too big -> decrement right, if sum too small -> increment left | 
+| 0011 | Container With Most Water | Medium | [Python](0011-container-with-most-water/0011-container-with-most-water.py) | two pointers: opposite ends, move pointer from smaller bar to maximize area | 
+| 0042 | Trapping Rain Water | Hard | [Python](0042-trapping-rain-water/0042-trapping-rain-water.py) | two pointers: opposite ends, move pointer from shorter wall, update if higher wall, calculate water trapped for each wall | 
 
 ---
 
