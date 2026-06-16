@@ -40,6 +40,10 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | 0001 | Two Sum | Easy | [Python](0001-two-sum/0001-two-sum.py) | hash map: map num to index, check if difference needed is in map
 | 0049 | Group Anagrams | Medium | [Python](0049-group-anagrams/0049-group-anagrams.py) | hash map: {character frequency tuple : matching string}, return  values ONLY
 | 0347 | Top K Frequent Elements | Medium | [Python](0347-top-k-frequent-elements/0347-top-k-frequent-elements.py) | bucket sort! (1) frequency map {num : frequency}, (2) freq[i] = nums that appear i times, (3) add num to result from largest frequency until k numbers
+| 0271 | Encode and Decode Strings | Medium | Python | encode string in format 'length#string', decode string by finding length until # and storing string
+| 0238 | Products of Array Except Self | Medium | [Python](0238-product-of-array-except-self.py) | two pass: (1) fill result w prefix product, (2) update result w postfix product
+| 0036 | Valid Sudoku | Medium | [Python](0036-valid-sudoku/0036-valid-sudoku.py) | add # to row/col/square seen set, return true if no duplicates
+| 0128 | Longest Consecutive Sequence | Medium | [Python](0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.py) | hash set: start counting lcs ONLY if # is beginning of sequence, continue and check if consecutive # exists in set
 
 ---
 
