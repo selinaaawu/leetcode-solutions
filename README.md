@@ -14,7 +14,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | Topic | Solved | Total | Notes |
 |---|---:|---:|---|
 | Arrays & Hashing | 9 | 9 | |
-| Two Pointers | 0 | 5 | |
+| Two Pointers | 5 | 5 | |
 | Stack | 0 | 6 | |
 | Binary Search | 0 | 7 | |
 | Sliding Window | 0 | 6 | |
@@ -187,12 +187,12 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| Insert Interval | Medium | DIFFICULTY | [Python]() | NOTES | 
+| Merge Intervals | Medium | DIFFICULTY | [Python]() | NOTES | 
+| Non Overlapping Intervals | Medium | DIFFICULTY | [Python]() | NOTES | 
+| Meeting Rooms | Easy | DIFFICULTY | [Python]() | NOTES | 
+| Meeting Rooms II | Medium | DIFFICULTY | [Python]() | NOTES | 
+| Minimum Interval to Include Each Query | Hard | DIFFICULTY | [Python]() | NOTES | 
 
 ---
 
@@ -200,14 +200,14 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Maximum Subarray | Medium | [Python]() | NOTES | 
+| xxxx | Jump Game | Medium | [Python]() | NOTES | 
+| xxxx | Jump Game II | Medium | [Python]() | NOTES | 
+| xxxx | Gas Station | Medium | [Python]() | NOTES | 
+| xxxx | Hand of Straights | Medium | [Python]() | NOTES | 
+| xxxx | Merge Triplets to Form Target Triplet | Medium | [Python]() | NOTES | 
+| xxxx | Partition Labels | Medium | [Python]() | NOTES | 
+| xxxx | Valid Parenthesis String | Medium | [Python]() | NOTES | 
 
 ---
 
@@ -215,19 +215,19 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Number of Islands | Medium | [Python]() | NOTES | 
+| xxxx | Max Area of Island | Medium | [Python]() | NOTES | 
+| xxxx | Clone Graph | Medium | [Python]() | NOTES | 
+| xxxx | Walls and Gates | Medium | [Python]() | NOTES | 
+| xxxx | Rotting Oranges | Medium | [Python]() | NOTES | 
+| xxxx | Pacific Atlantic Water Flow | Medium | [Python]() | NOTES | 
+| xxxx | Surrounded Regions | Medium | [Python]() | NOTES | 
+| xxxx | Course Schedule | Medium | [Python]() | NOTES | 
+| xxxx | Course Schedule II | Medium | [Python]() | NOTES | 
+| xxxx | Graph Valid Tree | Medium | [Python]() | NOTES | 
+| xxxx | Number of Connected Components in An Undirected Graph | Medium | [Python]() | NOTES | 
+| xxxx | Redundant Connection | Medium | [Python]() | NOTES | 
+| xxxx | Word Ladder | Hard | [Python]() | NOTES | 
 
 ---
 
@@ -235,12 +235,12 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Network Delay Time | Medium | [Python]() | NOTES | 
+| xxxx | Reconstruct Itinerary | Hard | [Python]() | NOTES | 
+| xxxx | Min Cost to Connect All Points | Medium | [Python]() | NOTES | 
+| xxxx | Swim in Rising Water | Hard | [Python]() | NOTES | 
+| xxxx | Alien Dictionary | Hard | [Python]() | NOTES | 
+| xxxx | Cheapest Flights Within K Stops | Medium | [Python]() | NOTES | 
 
 ---
 
@@ -248,18 +248,18 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Climbing Stairs | Easy | [Python]() | NOTES | 
+| xxxx | Min Cost Climbing Stairs | Easy | [Python]() | NOTES | 
+| xxxx | House Robber | Medium | [Python]() | NOTES | 
+| xxxx | House Robber II | Medium | [Python]() | NOTES | 
+| xxxx | Longest Palindrome Substring | Medium | [Python]() | NOTES | 
+| xxxx | Palindromic Substrings | Medium | [Python]() | NOTES | 
+| xxxx | Decode Ways | Medium | [Python]() | NOTES | 
+| xxxx | Coin Change | Medium | [Python]() | NOTES | 
+| xxxx | Maximum Product Subarray | Medium | [Python]() | NOTES | 
+| xxxx | Word Break | Medium | [Python]() | NOTES | 
+| xxxx | Longest Increasing Subsequence | Medium | [Python]() | NOTES | 
+| xxxx | Partition Equal Subset Sum | Medium | [Python]() | NOTES | 
 
 ---
 
@@ -267,17 +267,17 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES |
+| xxxx | Unique Paths | Medium | [Python]() | NOTES | 
+| xxxx | Longest Common Subsequence | Medium | [Python]() | NOTES | 
+| xxxx | Best Time to Buy And Sell Stock With Cooldown | Medium | [Python]() | NOTES | 
+| xxxx | Coin Change II | Medium | [Python]() | NOTES | 
+| xxxx | Target Sum | Medium | [Python]() | NOTES | 
+| xxxx | Interleaving String | Medium | [Python]() | NOTES | 
+| xxxx | Longest Increasing Path In a Matrix | Hard | [Python]() | NOTES | 
+| xxxx | Distinct Subsequences | Hard | [Python]() | NOTES | 
+| xxxx | Edit Distance | Medium | [Python]() | NOTES | 
+| xxxx | Burst Balloons | Hard | [Python]() | NOTES |
+| xxxx | Regular Experssion Matching | Hard | [Python]() | NOTES |
 
 ---
 
@@ -285,13 +285,13 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Single Number | Easy | [Python]() | NOTES | 
+| xxxx | Number of 1 Bits | Easy | [Python]() | NOTES | 
+| xxxx | Counting Bit | Easy | [Python]() | NOTES | 
+| xxxx | Reverse Bits | Easy | [Python]() | NOTES | 
+| xxxx | Missing Number | Easy | [Python]() | NOTES | 
+| xxxx | Sum of Two Integers | Medium | [Python]() | NOTES | 
+| xxxx | Reverse Integers | Medium | [Python]() | NOTES | 
 
 ---
 
@@ -299,11 +299,11 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Rotate Image | Medium | [Python]() | NOTES | 
+| xxxx | Spiral Matrix | Medium | [Python]() | NOTES | 
+| xxxx | Set Matrix Zeroes | Medium | [Python]() | NOTES | 
+| xxxx | Happy Number | Easy | [Python]() | NOTES | 
+| xxxx | Plus One | Easy | [Python]() | NOTES | 
+| xxxx | Pow(x, n) | Medium | [Python]() | NOTES | 
+| xxxx | Multiply Strings | Medium | [Python]() | NOTES | 
+| xxxx | Detect Squares | Medium | [Python]() | NOTES | 
