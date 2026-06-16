@@ -80,6 +80,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 ## Binary Search
 
 | # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
@@ -105,6 +106,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 ## Linked List
 
 | # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
@@ -122,6 +124,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 ## Trees
 
 | # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
@@ -143,6 +146,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 ## Tries
 
 | # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
@@ -152,6 +156,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 ## Heap / Priority Queue
 
 | # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
@@ -165,6 +170,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 ## Backtracking
 
 | # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
@@ -181,6 +187,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 ## Intervals
 
 | # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
@@ -193,6 +200,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 ## Greedy
 
 | # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
@@ -207,6 +215,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 ## Graphs
 
 | # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
@@ -226,6 +235,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 ## Advanced Graphs
 
 | # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
@@ -238,6 +248,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 ## 1-D Dynamic Programming
 
 | # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
@@ -256,6 +267,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 ## 2-D Dynamic Programming
 
 | # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
@@ -273,6 +285,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 ## Bit Manipulation
 
 | # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
@@ -286,6 +299,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 ## Math & Geometry
 
 | # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
 | xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
