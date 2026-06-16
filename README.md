@@ -11,26 +11,26 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 ## Progress Tracker
 
-| Topic | Solved | Notes |
-|---|---:|---|
-| Arrays & Hashing | 9 / 9 | |
-| Two Pointers | 0 / 5 | |
-| Stack | 0 / 6 | |
-| Binary Search | 0 / 7 | |
-| Sliding Window | 0 / 6 | |
-| Linked List | 0 / 11 | |
-| Trees | 0/ 15 | |
-| Tries | 0 / 3 | |
-| Heap / Priority Queue | 0 / 7 | |
-| Backtracking | 0 / 10 | |
-| Intervals | 0 / 6 | |
-| Greedy | 0 / 8 | |
-| Graphs | 0  / 13| |
-| Advanced Graphs | 0 / 6 | |
-| 1-D Dynamic Programming | 12 | |
-| 2-D Dynamic Programming | 11 | |
-| Bit Manipulation | 7 | |
-| Math & Geometry | 8 | |
+| Topic | Solved | Total | Notes |
+|---|---:|---:|---|
+| Arrays & Hashing | 9 | 9 | |
+| Two Pointers | 0 | 5 | |
+| Stack | 0 | 6 | |
+| Binary Search | 0 | 7 | |
+| Sliding Window | 0 | 6 | |
+| Linked List | 0 | 11 | |
+| Trees | 0 | 15 | |
+| Tries | 0 | 3 | |
+| Heap / Priority Queue | 0 | 7 | |
+| Backtracking | 0 | 10 | |
+| Intervals | 0 | 6 | |
+| Greedy | 0 | 8 | |
+| Graphs | 0  | 13| |
+| Advanced Graphs | 0 | 6 | |
+| 1-D Dynamic Programming | 0 | 12 | |
+| 2-D Dynamic Programming | 0 | 11 | |
+| Bit Manipulation | 0 | 7 | |
+| Math & Geometry | 0 | 8 | |
 
 ---
 
@@ -55,10 +55,10 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
 | 125 | Valid Palindrome | Easy | [Python](submissions/0125-valid-palindrome.py) | Skip non-alphanumeric chars, compare left/right |
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Two Sum II Input Array Is Sorted | Medium | [Python]() | NOTES | 
+| xxxx | 3Sum | Medium | [Python]() | NOTES | 
+| xxxx | Container With Most Water | Medium | [Python]() | NOTES | 
+| xxxx | Trapping Rain Water | Hard | [Python]() | NOTES | 
 
 ---
 
@@ -67,13 +67,11 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
 | 20 | Valid Parentheses | Easy | [Python](submissions/0020-valid-parentheses.py) | Push opening brackets, match closing brackets |
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Min Stack | Medium | [Python]() | NOTES | 
+| xxxx | Evaluate Reverse Polish Notation | Medium | [Python]() | NOTES | 
+| xxxx | Dailly Temperatures | Medium | [Python]() | NOTES | 
+| xxxx | Car Fleet | Medium | [Python]() | NOTES | 
+| xxxx | Largest Rectangle in Histogram | Hard | [Python]() | NOTES | 
 
 ---
 
@@ -81,12 +79,13 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Binary Search | Easy | [Python]() | NOTES | 
+| xxxx | Search a 2D Matrix | Medium | [Python]() | NOTES | 
+| xxxx | Koko Eating Bananas | Medium | [Python]() | NOTES | 
+| xxxx | Find Minimum in Rotated Sorted Array | Medium | [Python]() | NOTES | 
+| xxxx | Search in Rotated Sorted Array | Medium | [Python]() | NOTES | 
+| xxxx | Time Based Key Value Store | Medium | [Python]() | NOTES | 
+| xxxx | Median of Two Sorted Arrays | Hard | [Python]() | NOTES | 
 
 ---
 
@@ -95,11 +94,11 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
 | 121 | Best Time to Buy and Sell Stock | Easy | [Python](submissions/0121-best-time-to-buy-and-sell-stock.py) | Keep track of lowest price so far |
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Longest Substring Without Repeating Characters | Medium | [Python]() | NOTES | 
+| xxxx | Longest Repeating Character Replacement | Medium | [Python]() | NOTES | 
+| xxxx | Permutation in String | Medium | [Python]() | NOTES | 
+| xxxx | Minimum Window Substring | Hard | [Python]() | NOTES | 
+| xxxx | Sliding Window Maximum | Hard | [Python]() | NOTES | 
 
 ---
 
@@ -107,17 +106,17 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Reverse Linked List | Easy | [Python]() | NOTES | 
+| xxxx | Merge Two Sorted Lists  | Easy | [Python]() | NOTES | 
+| xxxx | Linked List Cycle | Easy | [Python]() | NOTES | 
+| xxxx | Reorder List | Medium | [Python]() | NOTES | 
+| xxxx | Remove Nth Node From End of List | Medium | [Python]() | NOTES | 
+| xxxx | Copy List With Random Pointer | Medium | [Python]() | NOTES | 
+| xxxx | Add Two Numbers | Medium | [Python]() | NOTES | 
+| xxxx | Find the Duplicate Number | Medium | [Python]() | NOTES | 
+| xxxx | LRU Cache | Medium | [Python]() | NOTES | 
+| xxxx | Merge K Sorted Lists | Hard | [Python]() | NOTES | 
+| xxxx | Reverse Nodes in K Group | Hard | [Python]() | NOTES | 
 
 ---
 
@@ -125,21 +124,21 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Invert Binary Tree | Easy | [Python]() | NOTES | 
+| xxxx | Maximum Depth of Binary Tree | Easy | [Python]() | NOTES | 
+| xxxx | Diameter of Binary Tree | Easy | [Python]() | NOTES | 
+| xxxx | Balanced Binary Tree | Easy | [Python]() | NOTES | 
+| xxxx | Same Tree | Easy | [Python]() | NOTES | 
+| xxxx | Subtree of Another Tree | Easy | [Python]() | NOTES | 
+| xxxx | Lowest Common Ancestor of a Binary Search Tree | Medium | [Python]() | NOTES | 
+| xxxx | Binary Tree Level Order Traversal | Medium | [Python]() | NOTES | 
+| xxxx | Binary Tree Right Side View | Medium | [Python]() | NOTES | 
+| xxxx | Count Good Nodes in Binary Tree | Medium | [Python]() | NOTES | 
+| xxxx | Validate Binary Search Tree | Medium | [Python]() | NOTES | 
+| xxxx | Kth Smallest Element in a BST | Medium | [Python]() | NOTES | 
+| xxxx | Construct Binary Tree From Preorder and Inorder Traversal | Medium | [Python]() | NOTES | 
+| xxxx | Binary Tree Maximum Path Sum | Hard | [Python]() | NOTES | 
+| xxxx | Serialize and Deserialize Binary Tree | Hard | [Python]() | NOTES | 
 
 ---
 
@@ -147,9 +146,9 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Implement Trie Prefix Tree | Medium | [Python]() | NOTES | 
+| xxxx | Design Add and Search Words Data Structure | Medium | [Python]() | NOTES | 
+| xxxx | Word Search II | Hard | [Python]() | NOTES | 
 
 ---
 
@@ -157,13 +156,13 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Kth Largest Element in a Stream | Easy | [Python]() | NOTES | 
+| xxxx | Last Stone Weight | Easy | [Python]() | NOTES | 
+| xxxx | K Closest Points to Origin | Medium | [Python]() | NOTES | 
+| xxxx | Kth Largest Element in An Array | Medium | [Python]() | NOTES | 
+| xxxx | Task Scheduler | Medium | [Python]() | NOTES | 
+| xxxx | Design Twitter | Medium | [Python]() | NOTES | 
+| xxxx | Find Median From Data Stream | Hard | [Python]() | NOTES | 
 
 ---
 
@@ -171,16 +170,16 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
-| xxxx | xxx | DIFFICULTY | [Python]() | NOTES | 
+| xxxx | Subsets | Medium | [Python]() | NOTES | 
+| xxxx | Combination Sum | Medium | [Python]() | NOTES | 
+| xxxx | Combination Sum II | Medium | [Python]() | NOTES | 
+| xxxx | Permutations | Medium | [Python]() | NOTES | 
+| xxxx | Subsets II | Medium | [Python]() | NOTES | 
+| xxxx | Generate Parentheses | Medium | [Python]() | NOTES | 
+| xxxx | Word Search | Medium | [Python]() | NOTES | 
+| xxxx | Palindrom Partitioning | Medium | [Python]() | NOTES | 
+| xxxx | Letter Combinations of a Phone Number | Medium | [Python]() | NOTES | 
+| xxxx | N Queens | Hard | [Python]() | NOTES | 
 
 ---
 
