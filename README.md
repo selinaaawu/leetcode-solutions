@@ -38,15 +38,15 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| 0217 | Contains Duplicate | Easy | [Python](0217-contains-duplicate/0217-contains-duplicate.py) | hash set: compare length of original array w length of hash set array |
-| 0242 | Valid Anagram | Easy | [Python](0242-valid-anagram/0242-valid-anagram.py) | hash map: map letter to occurence, check for equality | 
-| 0001 | Two Sum | Easy | [Python](0001-two-sum/0001-two-sum.py) | hash map: map num to index, check if difference needed is in map | 
-| 0049 | Group Anagrams | Medium | [Python](0049-group-anagrams/0049-group-anagrams.py) | hash map: {character frequency tuple : matching string}, return  values ONLY |
-| 0347 | Top K Frequent Elements | Medium | [Python](0347-top-k-frequent-elements/0347-top-k-frequent-elements.py) | bucket sort: frequency map {num : frequency}, freq[i] = nums that appear i times, add num to result from largest frequency until k numbers |
+| 0217 | Contains Duplicate | Easy | [Python](01-arrays-and-hashing/0217-contains-duplicate/0217-contains-duplicate.py) | hash set: compare length of original array w length of hash set array |
+| 0242 | Valid Anagram | Easy | [Python](01-arrays-and-hashing/0242-valid-anagram/0242-valid-anagram.py) | hash map: map letter to occurence, check for equality | 
+| 0001 | Two Sum | Easy | [Python](01-arrays-and-hashing/0001-two-sum/0001-two-sum.py) | hash map: map num to index, check if difference needed is in map | 
+| 0049 | Group Anagrams | Medium | [Python](01-arrays-and-hashing/0049-group-anagrams/0049-group-anagrams.py) | hash map: {character frequency tuple : matching string}, return  values ONLY |
+| 0347 | Top K Frequent Elements | Medium | [Python](01-arrays-and-hashing/0347-top-k-frequent-elements/0347-top-k-frequent-elements.py) | bucket sort: frequency map {num : frequency}, freq[i] = nums that appear i times, add num to result from largest frequency until k numbers |
 | 0271 | Encode and Decode Strings | Medium | Python | encode string in format 'length#string', decode string by finding length until # and storing string |
-| 0238 | Products of Array Except Self | Medium | [Python](0238-product-of-array-except-self.py) | two pass: (1) fill result w prefix product, (2) update result w postfix product |
-| 0036 | Valid Sudoku | Medium | [Python](0036-valid-sudoku/0036-valid-sudoku.py) | hash set: add # to row/col/square seen set, return true if no duplicates | 
-| 0128 | Longest Consecutive Sequence | Medium | [Python](0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.py) | hash set: start counting lcs ONLY if # is beginning of sequence, continue and check if consecutive # exists in set |
+| 0238 | Products of Array Except Self | Medium | [Python](01-arrays-and-hashing/0238-product-of-array-except-self.py) | two pass: (1) fill result w prefix product, (2) update result w postfix product |
+| 0036 | Valid Sudoku | Medium | [Python](01-arrays-and-hashing/0036-valid-sudoku/0036-valid-sudoku.py) | hash set: add # to row/col/square seen set, return true if no duplicates | 
+| 0128 | Longest Consecutive Sequence | Medium | [Python](01-arrays-and-hashing/0128-longest-consecutive-sequence/0128-longest-consecutive-sequence.py) | hash set: start counting lcs ONLY if # is beginning of sequence, continue and check if consecutive # exists in set |
 
 ---
 
@@ -54,11 +54,11 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| 0125 | Valid Palindrome | Easy | [Python](0125-valid-palindrome/0125-valid-palindrome.py) | two pointers: opposite ends, skip non-alphanumeric chars, compare lowercase left/right letters |
-| 0167 | Two Sum II Input Array Is Sorted | Medium | [Python](0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.py) | two pointers: opposite ends, if sum too big -> decrement right, if sum too small -> increment left, return for 1-indexed array | 
-| 0015 | 3Sum | Medium | [Python](0015-3sum/0015-3sum.py) | fix one number, two pointers on opposite ends to search for remaining two, skip duplicates, if sum too big -> decrement right, if sum too small -> increment left | 
-| 0011 | Container With Most Water | Medium | [Python](0011-container-with-most-water/0011-container-with-most-water.py) | two pointers: opposite ends, move pointer from smaller bar to maximize area | 
-| 0042 | Trapping Rain Water | Hard | [Python](0042-trapping-rain-water/0042-trapping-rain-water.py) | two pointers: opposite ends, move pointer from shorter wall, update if higher wall, calculate water trapped for each wall | 
+| 0125 | Valid Palindrome | Easy | [Python](02-two-pointers/0125-valid-palindrome/0125-valid-palindrome.py) | two pointers: opposite ends, skip non-alphanumeric chars, compare lowercase left/right letters |
+| 0167 | Two Sum II Input Array Is Sorted | Medium | [Python](02-two-pointers/0167-two-sum-ii-input-array-is-sorted/0167-two-sum-ii-input-array-is-sorted.py) | two pointers: opposite ends, if sum too big -> decrement right, if sum too small -> increment left, return for 1-indexed array | 
+| 0015 | 3Sum | Medium | [Python](02-two-pointers/0015-3sum/0015-3sum.py) | fix one number, two pointers on opposite ends to search for remaining two, skip duplicates, if sum too big -> decrement right, if sum too small -> increment left | 
+| 0011 | Container With Most Water | Medium | [Python](02-two-pointers/0011-container-with-most-water/0011-container-with-most-water.py) | two pointers: opposite ends, move pointer from smaller bar to maximize area | 
+| 0042 | Trapping Rain Water | Hard | [Python](02-two-pointers/0042-trapping-rain-water/0042-trapping-rain-water.py) | two pointers: opposite ends, move pointer from shorter wall, update if higher wall, calculate water trapped for each wall | 
 
 ---
 
@@ -66,12 +66,12 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| 0020 | Valid Parentheses | Easy | [Python](0020-valid-parentheses/0020-valid-parentheses.py) | stack: push opening bracket, pop matching closing bracket or invalid string |
-| 0155 | Min Stack | Medium | [Python](0155-min-stack/0155-min-stack.py) | two stack, minStack stores min value UP TO value in stack | 
-| 0159 | Evaluate Reverse Polish Notation | Medium | [Python](0150-evaluate-reverse-polish-notation/0150-evaluate-reverse-polish-notation.py) | stack: push num onto stack, if operator -> pop two #s, apply operation, push result onto stack | 
-| 0739 | Dailly Temperatures | Medium | [Python](0739-daily-temperatures/0739-daily-temperatures.py) | stack: store (index, temp), if curr temp > stack[-1] -> warmer day found, compute difference in days, otherwise add to stack | 
-| 0853 | Car Fleet | Medium | [Python](0853-car-fleet/0853-car-fleet.py) | sort (position, speed) in descending order, compute time to reach target, if next car reaches target after most recent -> new fleet, add time to stack, otherwise ignore  | 
-| 0084 | Largest Rectangle in Histogram | Hard | [Python](0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.py) | stack: store (index, height) in increasing order, if shorter bar -> pop and update max area, otherwise -> push w leftmost index, pop remaining bars and update max area | 
+| 0020 | Valid Parentheses | Easy | [Python](03-stack/0020-valid-parentheses/0020-valid-parentheses.py) | stack: push opening bracket, pop matching closing bracket or invalid string |
+| 0155 | Min Stack | Medium | [Python](03-stack/0155-min-stack/0155-min-stack.py) | two stack, minStack stores min value UP TO value in stack | 
+| 0159 | Evaluate Reverse Polish Notation | Medium | [Python](03-stack/0150-evaluate-reverse-polish-notation/0150-evaluate-reverse-polish-notation.py) | stack: push num onto stack, if operator -> pop two #s, apply operation, push result onto stack | 
+| 0739 | Dailly Temperatures | Medium | [Python](03-stack/0739-daily-temperatures/0739-daily-temperatures.py) | stack: store (index, temp), if curr temp > stack[-1] -> warmer day found, compute difference in days, otherwise add to stack | 
+| 0853 | Car Fleet | Medium | [Python](03-stack/0853-car-fleet/0853-car-fleet.py) | sort (position, speed) in descending order, compute time to reach target, if next car reaches target after most recent -> new fleet, add time to stack, otherwise ignore  | 
+| 0084 | Largest Rectangle in Histogram | Hard | [Python](03-stack/0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.py) | stack: store (index, height) in increasing order, if shorter bar -> pop and update max area, otherwise -> push w leftmost index, pop remaining bars and update max area | 
 
 ---
 
