@@ -3,8 +3,9 @@ class Solution:
 
         # STACK | time: O(nlogn), space: O(n)
         # sort (position, speed) in descending order so closer cars processed first
-        # for each car, compute time to reach target, add car time to stack
-        # if next car reaches target before/same time, fleet formed, remove from stack
+        # for each car, compute time to reach target
+        # if next car reaches target after most recent, new fleet, add to stack
+        # otherwise next car reaches target before/with most recent, fleet formed, ignore
 
         pair = [(p, s) for p, s in zip(position,speed)]
         pair.sort(reverse = True)
@@ -12,9 +13,8 @@ class Solution:
         stack = []
         for p, s in pair:
             time = (target - p) / s
-            stack.append(time)
-            if len(stack) > 1 and stack[-1] <= stack[-2]:
-                stack.pop()
+            if not stack or time > stack[-1]:
+                stack.append(time)
 
         return len(stack)
         
