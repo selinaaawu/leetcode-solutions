@@ -66,12 +66,12 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| 20 | Valid Parentheses | Easy | [Python](submissions/0020-valid-parentheses.py) | Push opening brackets, match closing brackets |
-| xxxx | Min Stack | Medium | [Python]() | NOTES | 
-| xxxx | Evaluate Reverse Polish Notation | Medium | [Python]() | NOTES | 
-| xxxx | Dailly Temperatures | Medium | [Python]() | NOTES | 
-| xxxx | Car Fleet | Medium | [Python]() | NOTES | 
-| xxxx | Largest Rectangle in Histogram | Hard | [Python]() | NOTES | 
+| 0020 | Valid Parentheses | Easy | [Python](0020-valid-parentheses/0020-valid-parentheses.py) | stack: push opening bracket, pop matching closing bracket or invalid string |
+| 0155 | Min Stack | Medium | [Python](0155-min-stack/0155-min-stack.py) | two stack, minStack stores min value UP TO value in stack | 
+| 0159 | Evaluate Reverse Polish Notation | Medium | [Python](0150-evaluate-reverse-polish-notation/0150-evaluate-reverse-polish-notation.py) | stack: push num onto stack, if operator -> pop two #s, apply operation, push result onto stack | 
+| 0739 | Dailly Temperatures | Medium | [Python](0739-daily-temperatures/0739-daily-temperatures.py) | stack: store (index, temp), if curr temp > stack[-1] -> warmer day found, compute difference in days, otherwise add to stack | 
+| 0853 | Car Fleet | Medium | [Python](0853-car-fleet/0853-car-fleet.py) | sort (position, speed) in descending order, compute time to reach target, if next car reaches target after most recent -> new fleet, add time to stack, otherwise ignore  | 
+| 0084 | Largest Rectangle in Histogram | Hard | [Python](0084-largest-rectangle-in-histogram/0084-largest-rectangle-in-histogram.py) | stack: store (index, height) in increasing order, if shorter bar -> pop and update max area, otherwise -> push w leftmost index, pop remaining bars and update max area | 
 
 ---
 
