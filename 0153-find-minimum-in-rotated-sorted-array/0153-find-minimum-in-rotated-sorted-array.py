@@ -1,22 +1,11 @@
 class Solution:
     def findMin(self, nums: List[int]) -> int:
+        ## BINARY SEARCH | time: O(logn), space: O(1)
         # rotated sorted array, find minimum element
         # check if mid element is rotated or not rotated
         # if rotated, mid > r, check right side, l = m + 1
         # if not rotated mid < r, check left side, r = m
         # return l
-
-        # [ 1 2 3 4 5 6 ]
-        # [ 2 3 4 5 6 1 ]
-        # [ 3 4 5 6 1 2 ]
-        #       *           5 > 2, part of rotated, search right, l = m + 1
-        #       [   *   ]   1 < 2, part of not rotated, search left, r = m
-        #       [ *   ]     6 > 1, part of rotated, search right l = m + 1
-        # [ 4 5 6 1 2 3 ]
-        # [ 5 6 1 2 3 4 ]
-        # [   *   ]
-        # [ 6 1 2 3 4 5 ]
-        #       *
         
         l, r = 0, len(nums) - 1
 
