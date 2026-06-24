@@ -15,8 +15,8 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 |---|---:|---:|---|
 | Arrays & Hashing | 9 | 9 | |
 | Two Pointers | 5 | 5 | |
-| Stack | 0 | 6 | |
-| Binary Search | 0 | 7 | |
+| Stack | 6 | 6 | |
+| Binary Search | 6 | 7 | |
 | Sliding Window | 0 | 6 | |
 | Linked List | 0 | 11 | |
 | Trees | 0 | 15 | |
@@ -79,13 +79,13 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | Binary Search | Easy | [Python]() | NOTES | 
-| xxxx | Search a 2D Matrix | Medium | [Python]() | NOTES | 
-| xxxx | Koko Eating Bananas | Medium | [Python]() | NOTES | 
-| xxxx | Find Minimum in Rotated Sorted Array | Medium | [Python]() | NOTES | 
-| xxxx | Search in Rotated Sorted Array | Medium | [Python]() | NOTES | 
-| xxxx | Time Based Key Value Store | Medium | [Python]() | NOTES | 
-| xxxx | Median of Two Sorted Arrays | Hard | [Python]() | NOTES | 
+| 0704 | Binary Search | Easy | [Python](04-binary-search/0704-binary-search/0704-binary-search.py) | exact binary search: [0, len(nums) - 1], l <= r, if num[m] too big, m = r - 1, num[m] too small, m = l + 1|
+| 0074 | Search a 2D Matrix | Medium | [Python](04-binary-search/0074-search-a-2d-matrix/0074-search-a-2d-matrix.py) | exact binary search: [0, rows * cols - 1] flatten matrix into sorted array, map mid to matrix w row = m // cols, col = m % cols | 
+| 0875 | Koko Eating Bananas | Medium | [Python](04-binary-search/0875-koko-eating-bananas/0875-koko-eating-bananas.py) | binary search answer array: [1, max(piles)], for each rate -> calculate time to eat all piles, if time < h -> eat less, otherwise eat more | 
+| 0153 | Find Minimum in Rotated Sorted Array | Medium | [Python](04-binary-search/0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.py) | lower bound binary search: [0, len(nums) - 1], l < r, if nums[mid] < nums[r] -> rotated, check right, otherwise nums[mid] sorted array -> check left
+| 0033 | Search in Rotated Sorted Array | Medium | [Python](04-binary-search/0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.py) | exact binary search: [0, len(nums) - 1, l <= r, for rotated/sorted half, compare target to nums[mid] or nums[r] to determine whether to check left/right | 
+| 0981 | Time Based Key Value Store | Medium | [Python](04-binary-search/0981-time-based-key-value-store/0981-time-based-key-value-store.py) | store is dict where key : list of (value, timestamp), find rightmost timestamp <= target: [0, len(store[key]], if m < target -> save, check right, otherwise -> check left | 
+| xxxx | Median of Two Sorted Arrays | Hard | [Python](04-binary-search/) | NOTES | 
 
 ---
 
