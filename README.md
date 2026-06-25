@@ -17,7 +17,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | Two Pointers | 5 | 5 | |
 | Stack | 6 | 6 | |
 | Binary Search | 6 | 7 | |
-| Sliding Window | 0 | 6 | |
+| Sliding Window | 6 | 6 | |
 | Linked List | 0 | 11 | |
 | Trees | 0 | 15 | |
 | Tries | 0 | 3 | |
@@ -93,12 +93,12 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| 121 | Best Time to Buy and Sell Stock | Easy | [Python](submissions/0121-best-time-to-buy-and-sell-stock.py) | Keep track of lowest price so far |
-| xxxx | Longest Substring Without Repeating Characters | Medium | [Python]() | NOTES | 
-| xxxx | Longest Repeating Character Replacement | Medium | [Python]() | NOTES | 
-| xxxx | Permutation in String | Medium | [Python]() | NOTES | 
-| xxxx | Minimum Window Substring | Hard | [Python]() | NOTES | 
-| xxxx | Sliding Window Maximum | Hard | [Python]() | NOTES | 
+| 0121 | Best Time to Buy and Sell Stock | Easy | [Python](04-sliding-window/0121-best-time-to-buy-and-sell-stock/0121-best-time-to-buy-and-sell-stock.py) | two pointers: expand r, if buy > sell -> buy = sell, otherwise -> update max profit |
+| 0003 | Longest Substring Without Repeating Characters | Medium | [Python](04-sliding-window/0003-longest-substring-without-repeating-characters/0003-longest-substring-without-repeating-characters.py) | sliding window/variable: hash map stores {char : index}, expand r, add s[r] to map, update max length, if s[r] in map -> update l = last index + 1 OR l (not backward) | 
+| 0424 | Longest Repeating Character Replacement | Medium | [Python](04-sliding-window/0424-longest-repeating-character-replacement/0424-longest-repeating-character-replacement.py) | sliding window/variable: hash map stores {char : count}, expand r, update s[r] count, max frequency, max length, while window size - max frequency > k -> invalid state, update s[l] count and shrink l | 
+| 0567 | Permutation in String | Medium | [Python](04-sliding-window/0567-permutation-in-string/0567-permutation-in-string.py) | sliding window/fixed: initialize 26-len character frequency arrays, update total matches of two states, expand r, if matches == 26 -> permutation found, add right character to window state, update matches, remove left character from window state, update matches, update l count to maintain fixed size | 
+| 0076 | Minimum Window Substring | Hard | [Python](04-sliding-window/0076-minimum-window-substring/0076-minimum-window-substring.py) | sliding window/varialbe: hash map stores {char : count}, initialize valid state, expand r, add s[r] to window and update matching count as needed, while window has all required characters -> update pointers, shrink l until invalid | 
+| 0239 | Sliding Window Maximum | Hard | [Python](04-sliding-window/0239-sliding-window-maximum/0239-sliding-window-maximum.py) | sliding window/fixed: deque stores indices in decreasing order, deque[0] ALWAYS sotres curr max, expand r, remove nums < nums[r], add r to deque, shrink l if window out of range, record max when window size == k | 
 
 ---
 
