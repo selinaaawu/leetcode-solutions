@@ -18,7 +18,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | Stack | 6 | 6 | |
 | Binary Search | 6 | 7 | |
 | Sliding Window | 6 | 6 | |
-| Linked List | 0 | 11 | |
+| Linked List | 5 | 11 | |
 | Trees | 0 | 15 | |
 | Tries | 0 | 3 | |
 | Heap / Priority Queue | 0 | 7 | |
@@ -106,17 +106,17 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | Reverse Linked List | Easy | [Python]() | NOTES | 
-| xxxx | Merge Two Sorted Lists  | Easy | [Python]() | NOTES | 
-| xxxx | Linked List Cycle | Easy | [Python]() | NOTES | 
-| xxxx | Reorder List | Medium | [Python]() | NOTES | 
-| xxxx | Remove Nth Node From End of List | Medium | [Python]() | NOTES | 
-| xxxx | Copy List With Random Pointer | Medium | [Python]() | NOTES | 
-| xxxx | Add Two Numbers | Medium | [Python]() | NOTES | 
-| xxxx | Find the Duplicate Number | Medium | [Python]() | NOTES | 
-| xxxx | LRU Cache | Medium | [Python]() | NOTES | 
-| xxxx | Merge K Sorted Lists | Hard | [Python]() | NOTES | 
-| xxxx | Reverse Nodes in K Group | Hard | [Python]() | NOTES | 
+| xxxx | Reverse Linked List | Easy | [Python](07-linked-list/) | for each node: store next pointer, update pointer to point backwards, move prev & curr pointer forward, return prev (last element is new head) | 
+| xxxx | Merge Two Sorted Lists  | Easy | [Python](07-linked-list/) | keep pointer to head, while both lists have nodes -> add smaller node to node.next and update list & node, add remaining nodes from non-empty list | 
+| xxxx | Linked List Cycle | Easy | [Python](07-linked-list/) | slow, fast = head, head, slow pointer moves 1, fast pointer moves 2, if cycle -> fast == slow eventually, otherwise fast == null eventually  | 
+| xxxx | Reorder List | Medium | [Python](07-linked-list/) | find middle of linked list using slow/fast, break halves apart, reverse second half of list, merge two halves one-by-one (first then second) | 
+| xxxx | Remove Nth Node From End of List | Medium | [Python](07-linked-list/) |  dummy = (0, head) since head can be removed, left, right points to dummy, move right pointer n times, move both pointers until right reaches end, delete node, return dummy.next | 
+| xxxx | Copy List With Random Pointer | Medium | [Python](07-linked-list/) | NOTES | 
+| xxxx | Add Two Numbers | Medium | [Python](07-linked-list/) | NOTES | 
+| xxxx | Find the Duplicate Number | Medium | [Python](07-linked-list/) | NOTES | 
+| xxxx | LRU Cache | Medium | [Python](07-linked-list/) | NOTES | 
+| xxxx | Merge K Sorted Lists | Hard | [Python](07-linked-list/) | NOTES | 
+| xxxx | Reverse Nodes in K Group | Hard | [Python](07-linked-list/) | NOTES | 
 
 ---
 
