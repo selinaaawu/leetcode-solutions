@@ -18,7 +18,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | Stack | 6 | 6 | |
 | Binary Search | 6 | 7 | |
 | Sliding Window | 6 | 6 | |
-| Linked List | 5 | 11 | |
+| Linked List | 9 | 11 | |
 | Trees | 0 | 15 | |
 | Tries | 0 | 3 | |
 | Heap / Priority Queue | 0 | 7 | |
@@ -106,15 +106,15 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | Reverse Linked List | Easy | [Python](07-linked-list/) | for each node: store next pointer, update pointer to point backwards, move prev & curr pointer forward, return prev (last element is new head) | 
-| xxxx | Merge Two Sorted Lists  | Easy | [Python](07-linked-list/) | keep pointer to head, while both lists have nodes -> add smaller node to node.next and update list & node, add remaining nodes from non-empty list | 
-| xxxx | Linked List Cycle | Easy | [Python](07-linked-list/) | slow, fast = head, head, slow pointer moves 1, fast pointer moves 2, if cycle -> fast == slow eventually, otherwise fast == null eventually  | 
-| xxxx | Reorder List | Medium | [Python](07-linked-list/) | find middle of linked list using slow/fast, break halves apart, reverse second half of list, merge two halves one-by-one (first then second) | 
-| xxxx | Remove Nth Node From End of List | Medium | [Python](07-linked-list/) |  dummy = (0, head) since head can be removed, left, right points to dummy, move right pointer n times, move both pointers until right reaches end, delete node, return dummy.next | 
-| xxxx | Copy List With Random Pointer | Medium | [Python](07-linked-list/) | NOTES | 
-| xxxx | Add Two Numbers | Medium | [Python](07-linked-list/) | NOTES | 
-| xxxx | Find the Duplicate Number | Medium | [Python](07-linked-list/) | NOTES | 
-| xxxx | LRU Cache | Medium | [Python](07-linked-list/) | NOTES | 
+| 0206 | Reverse Linked List | Easy | [Python](07-linked-list/0206-reverse-linked-list/0206-reverse-linked-list.py) | for each node: store next pointer, update pointer to point backwards, move prev & curr pointer forward, return prev (last element is new head) | 
+| 0021 | Merge Two Sorted Lists  | Easy | [Python](07-linked-list/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.py) | keep pointer to head, while both lists have nodes -> add smaller node to node.next and update list & node, add remaining nodes from non-empty list | 
+| 0141 | Linked List Cycle | Easy | [Python](07-linked-list/0141-linked-list-cycle/0141-linked-list-cycle.py) | slow, fast = head, head, slow pointer moves 1, fast pointer moves 2, if cycle -> fast == slow eventually, otherwise fast == null eventually  | 
+| 0143 | Reorder List | Medium | [Python](07-linked-list/0143-reorder-list/0143-reorder-list.py) | find middle of linked list using slow/fast, break halves apart, reverse second half of list, merge two halves one-by-one (first then second) | 
+| 0019 | Remove Nth Node From End of List | Medium | [Python](07-linked-list/0019-remove-nth-node-from-end-of-list/0019-remove-nth-node-from-end-of-list.py) |  dummy = (0, head) since head can be removed, left, right points to dummy, move right pointer n times, move both pointers until right reaches end, delete node, return dummy.next | 
+| 0138 | Copy List With Random Pointer | Medium | [Python](07-linked-list/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.py) | hash map stores deep copy of node, link value, next pointer, random pointer using hash map | 
+| 0002 | Add Two Numbers | Medium | [Python](07-linked-list/0002-add-two-numbers/0002-add-two-numbers.py) | keep pointer to head, while either list has more digits or carry exists -> add two digits and carry, update carry, save remainder into next node, update all pointers | 
+| 0287 | Find the Duplicate Number | Medium | [Python](07-linked-list/0287-find-the-duplicate-number/0287-find-the-duplicate-number.py) | treat array as linked list where value tells next index, slow, fast = 0, 0, while slow != fast -> find intersection, while start != slow -> find cycle entrance  | 
+| 0146 | LRU Cache | Medium | [Python](07-linked-list/0146-lru-cache/0146-lru-cache.py) | hash map & doubly linked list, left/right nodes point to least/most recently used nodes, remove/insert functions for easy removal/insertion, get key -> move node to right, return value, put key -> create/update key-value pair, insert to right, remove leftmost node if at capacity| 
 | xxxx | Merge K Sorted Lists | Hard | [Python](07-linked-list/) | NOTES | 
 | xxxx | Reverse Nodes in K Group | Hard | [Python](07-linked-list/) | NOTES | 
 
