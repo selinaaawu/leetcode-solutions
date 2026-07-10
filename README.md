@@ -124,21 +124,21 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | Invert Binary Tree | Easy | [Python]() | NOTES | 
-| xxxx | Maximum Depth of Binary Tree | Easy | [Python]() | NOTES | 
-| xxxx | Diameter of Binary Tree | Easy | [Python]() | NOTES | 
-| xxxx | Balanced Binary Tree | Easy | [Python]() | NOTES | 
-| xxxx | Same Tree | Easy | [Python]() | NOTES | 
-| xxxx | Subtree of Another Tree | Easy | [Python]() | NOTES | 
-| xxxx | Lowest Common Ancestor of a Binary Search Tree | Medium | [Python]() | NOTES | 
-| xxxx | Binary Tree Level Order Traversal | Medium | [Python]() | NOTES | 
-| xxxx | Binary Tree Right Side View | Medium | [Python]() | NOTES | 
-| xxxx | Count Good Nodes in Binary Tree | Medium | [Python]() | NOTES | 
-| xxxx | Validate Binary Search Tree | Medium | [Python]() | NOTES | 
-| xxxx | Kth Smallest Element in a BST | Medium | [Python]() | NOTES | 
-| xxxx | Construct Binary Tree From Preorder and Inorder Traversal | Medium | [Python]() | NOTES | 
-| xxxx | Binary Tree Maximum Path Sum | Hard | [Python]() | NOTES | 
-| xxxx | Serialize and Deserialize Binary Tree | Hard | [Python]() | NOTES | 
+| 0226 | Invert Binary Tree | Easy | [Python](07-trees/) | base case -> null <br> recursive DFS: swap left/right childiren, call to invert left/right subtree, return root <br> iterative DFS: stack, pop node, swap left/right chilidren, if left/right child exists -> append to stack, return node <br> BFS: queue (deque), popleft (FIFO), swap left/right children, if left/right chid exists -> append to queue, return root | 
+| 0104 | Maximum Depth of Binary Tree | Easy | [Python](07-trees/) | base case -> 0 <br> recrusive DFS: compute left/right depth, return 1 + max(left, right) <br> iterative DFS: stack stores (node, depth), pop stack, update max depth, append left/right children w depht + 1 <br> BFS: queue, count levels traversed until queue empty | 
+| 0543 | Diameter of Binary Tree | Easy | [Python](07-trees/) | diameter = left subtree height + right subtree height <br> recursive DFS: dfs(root) returns height of each node & global diameter, track max diameter seen | 
+| 0110 | Balanced Binary Tree | Easy | [Python](07-trees/) | dfs(root) returns (balanced subtree, height), tree balanced IFF left/right subtree balanced AND left subtree height - right subtree height <= 1, return last balanced subtree boolean | 
+| 0100 | Same Tree | Easy | [Python](07-trees/) | same tree has identical structure & values, if both nodes are equal/null -> return True, if one node null or values differ -> return False | 
+| xxxx | Subtree of Another Tree | Easy | [Python](07-trees/) | NOTES | 
+| xxxx | Lowest Common Ancestor of a Binary Search Tree | Medium | [Python](07-trees/) | NOTES | 
+| xxxx | Binary Tree Level Order Traversal | Medium | [Python](07-trees/) | NOTES | 
+| xxxx | Binary Tree Right Side View | Medium | [Python](07-trees/) | NOTES | 
+| xxxx | Count Good Nodes in Binary Tree | Medium | [Python](07-trees/) | NOTES | 
+| xxxx | Validate Binary Search Tree | Medium | [Python](07-trees/) | NOTES | 
+| xxxx | Kth Smallest Element in a BST | Medium | [Python](07-trees/) | NOTES | 
+| xxxx | Construct Binary Tree From Preorder and Inorder Traversal | Medium | [Python](07-trees/) | NOTES | 
+| xxxx | Binary Tree Maximum Path Sum | Hard | [Python](07-trees/) | NOTES | 
+| xxxx | Serialize and Deserialize Binary Tree | Hard | [Python](07-trees/) | NOTES | 
 
 ---
 
