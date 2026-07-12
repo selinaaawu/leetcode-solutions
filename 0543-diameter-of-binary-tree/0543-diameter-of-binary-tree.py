@@ -10,7 +10,7 @@ class Solution:
         ## RECURSIVE DFS | time: O(n), space: O(h)
         # diameter = longest path between two nodes
         #          = left subtree height + right subtree height
-        # DFS to compute height, tracking max (left + right) seen
+        # dfs to compute height, tracking max (left + right) seen
 
         # global answer
         diameter = 0
