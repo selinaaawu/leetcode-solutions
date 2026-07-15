@@ -129,16 +129,16 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | 0543 | Diameter of Binary Tree | Easy | [Python](07-trees/) | diameter = left subtree height + right subtree height <br> recursive DFS: dfs(root) returns height of each node & global diameter, track max diameter seen | 
 | 0110 | Balanced Binary Tree | Easy | [Python](07-trees/) | dfs(root) returns (balanced subtree, height), tree balanced IFF left/right subtree balanced AND left subtree height - right subtree height <= 1, return last balanced subtree boolean | 
 | 0100 | Same Tree | Easy | [Python](07-trees/) | same tree has identical structure & values, if both nodes are equal/null -> return True, if one node null or values differ -> return False | 
-| xxxx | Subtree of Another Tree | Easy | [Python](07-trees/) | NOTES | 
-| xxxx | Lowest Common Ancestor of a Binary Search Tree | Medium | [Python](07-trees/) | NOTES | 
-| xxxx | Binary Tree Level Order Traversal | Medium | [Python](07-trees/) | NOTES | 
-| xxxx | Binary Tree Right Side View | Medium | [Python](07-trees/) | NOTES | 
-| xxxx | Count Good Nodes in Binary Tree | Medium | [Python](07-trees/) | NOTES | 
-| xxxx | Validate Binary Search Tree | Medium | [Python](07-trees/) | NOTES | 
-| xxxx | Kth Smallest Element in a BST | Medium | [Python](07-trees/) | NOTES | 
-| xxxx | Construct Binary Tree From Preorder and Inorder Traversal | Medium | [Python](07-trees/) | NOTES | 
+| 0572 | Subtree of Another Tree | Easy | [Python](07-trees/) | fully compare subtree of root == subroot, if identical -> subtree found, otherwise -> search left/right children, edge cases for root & subroot | 
+| 0235 | Lowest Common Ancestor of a Binary Search Tree | Medium | [Python](07-trees/) | BST means left subtree < node < right subtree <br> iterative: recruse root tree, if both values < curr -> search left subtree, if both values > curr -> search right subtree, else -> split point aka LCA <br> recurisve: base case: None, same idea as iterative | 
+| 0102 | Binary Tree Level Order Traversal | Medium | [Python](07-trees/) | BFS, list stores every level & queue stores values, queue = deque([root]), while queue -> current level = [], for len(queue) nodes -> pop nodes from queue, add value to curr level, push left/chlidren to queue | 
+| 0199 | Binary Tree Right Side View | Medium | [Python](07-trees/) | BFS, list stores rightmost node & queue stores values, queue = deque([root]), while queue -> current level = [], for len(queue) nodes -> pop nodes from queue, update rightmost node, push left/chlidren to queue, add rightmost value to list | 
+| 1448 | Count Good Nodes in Binary Tree | Medium | [Python](07-trees/) | good node = no earlier nodes has greater value <br> preorder recrusive DFS, dfs(node, max_value), for every node -> if node >= max value -> add by 1, otherwise -> 0, update max value in path, recurse left/right child w updated max_value, return sum of all values | 
+| 0098 | Validate Binary Search Tree | Medium | [Python](07-trees/) | top down recursive DFS, dfs(node, low, high), valid BST has nodes (low, high), check left subtree w node less than parent, check right subtree w node greater than parent, tighten bounds while recursing tree | 
+| 0230 | Kth Smallest Element in a BST | Medium | [Python](07-trees/) | inorder DFS: visit left subtree, check if kth element, update kth value, decrement count, visit right subtree   | 
+| 0105 | Construct Binary Tree From Preorder and Inorder Traversal | Medium | [Python](07-trees/) | preorder tells first node, inorder tells left/right subtree <br> top down recursive DFS: time = O(n^2), find position of preorder[0] in inorder, build left/right subtree w new preorder/inorder slicing <br> top down recursive DFS + hashmap: time = O(n), hashmap stores {value, index} for inorder list O(1) time, preIndex tracks next preorder value, dfs(left, right), get root value, create node, look up inorder index, build left/right with inorder index <br> top down recursive DFS: O(n), preIndex = inIndex = 0, dfs(limit), if no more nodes or limit met -> return None, create node, build left/right with updated limit values | 
 | xxxx | Binary Tree Maximum Path Sum | Hard | [Python](07-trees/) | NOTES | 
-| xxxx | Serialize and Deserialize Binary Tree | Hard | [Python](07-trees/) | NOTES | 
+| 0297 | Serialize and Deserialize Binary Tree | Hard | [Python](07-trees/) | top down preorder DFS <br> serialize: store preorder traversal in result list, dfs(root) if null -> store "N", if value -> store str(value), return result as string, deserialize: split string to list, index = 0, dfs(), if "N" -> null node, if value -> create node w value, increment index as needed <br> inorder BFS saves level by level <br> serialize: pop leftmost node, if null -> store "N", otherwise -> result append str(value), queue append left/right, return result as string, deserialize: split string to list, create queue w root, index = 1, while queue -> create left/right child & append to queue, increment index as needed | 
 
 ---
 
