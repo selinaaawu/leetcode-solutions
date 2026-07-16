@@ -19,8 +19,8 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | Binary Search | 6 | 7 | |
 | Sliding Window | 6 | 6 | |
 | Linked List | 9 | 11 | |
-| Trees | 0 | 15 | |
-| Tries | 0 | 3 | |
+| Trees | 14 | 15 | |
+| Tries | 3 | 3 | |
 | Heap / Priority Queue | 0 | 7 | |
 | Backtracking | 0 | 10 | |
 | Intervals | 0 | 6 | |
@@ -146,9 +146,9 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | Implement Trie Prefix Tree | Medium | [Python]() | NOTES | 
-| xxxx | Design Add and Search Words Data Structure | Medium | [Python]() | NOTES | 
-| xxxx | Word Search II | Hard | [Python]() | NOTES | 
+| 0208 | Implement Trie Prefix Tree | Medium | [Python]() | initialize root = TrieNode <br> insert(word): for each character, if not in tree -> create trienode, iterate character by character, mark endOfWord <br> search(word): if char not in tree, word does not exist, return if endOfWord <br> startsWith(word): if char not in tree, prefix does not exist, return if all matching | 
+| 0211 | Design Add and Search Words Data Structure | Medium | [Python]() | search(word) uses recursive dfs(j, root) where j = index of word, root = current TrieNode, compare every character, if "." -> iterate EVERY child w dfs(i + 1, child), True if valid else False, if regular character not exist -> False | 
+| 0212 | Word Search II | Hard | [Python]() | class trienode w index = index of word (mark end) or -1 <br> create trie of all words, for all row/col, dfs() <br> dfs(r, c, node): if out of bounds or board[r][c] already visited or not a trie children -> return, iterate to child, if end of word -> add to result & mark index = -1, mark board[r][c] as visited, dfs() 4 neighbors, restore board[r][c], prune for further optimization (if child trienode has no children -> remove from parent) | 
 
 ---
 
