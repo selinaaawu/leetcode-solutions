@@ -106,17 +106,17 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| 0206 | Reverse Linked List | Easy | [Python](07-linked-list/0206-reverse-linked-list/0206-reverse-linked-list.py) | for each node: store next pointer, update pointer to point backwards, move prev & curr pointer forward, return prev (last element is new head) | 
-| 0021 | Merge Two Sorted Lists  | Easy | [Python](07-linked-list/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.py) | keep pointer to head, while both lists have nodes -> add smaller node to node.next and update list & node, add remaining nodes from non-empty list | 
-| 0141 | Linked List Cycle | Easy | [Python](07-linked-list/0141-linked-list-cycle/0141-linked-list-cycle.py) | slow, fast = head, head, slow pointer moves 1, fast pointer moves 2, if cycle -> fast == slow eventually, otherwise fast == null eventually  | 
-| 0143 | Reorder List | Medium | [Python](07-linked-list/0143-reorder-list/0143-reorder-list.py) | find middle of linked list using slow/fast, break halves apart, reverse second half of list, merge two halves one-by-one (first then second) | 
-| 0019 | Remove Nth Node From End of List | Medium | [Python](07-linked-list/0019-remove-nth-node-from-end-of-list/0019-remove-nth-node-from-end-of-list.py) |  dummy = (0, head) since head can be removed, left, right points to dummy, move right pointer n times, move both pointers until right reaches end, delete node, return dummy.next | 
-| 0138 | Copy List With Random Pointer | Medium | [Python](07-linked-list/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.py) | hash map stores deep copy of node, link value, next pointer, random pointer using hash map | 
-| 0002 | Add Two Numbers | Medium | [Python](07-linked-list/0002-add-two-numbers/0002-add-two-numbers.py) | keep pointer to head, while either list has more digits or carry exists -> add two digits and carry, update carry, save remainder into next node, update all pointers | 
-| 0287 | Find the Duplicate Number | Medium | [Python](07-linked-list/0287-find-the-duplicate-number/0287-find-the-duplicate-number.py) | treat array as linked list where value tells next index, slow, fast = 0, 0, while slow != fast -> find intersection, while start != slow -> find cycle entrance  | 
-| 0146 | LRU Cache | Medium | [Python](07-linked-list/0146-lru-cache/0146-lru-cache.py) | hash map & doubly linked list, left/right nodes point to least/most recently used nodes, remove/insert functions for easy removal/insertion, get key -> move node to right, return value, put key -> create/update key-value pair, insert to right, remove leftmost node if at capacity| 
-| xxxx | Merge K Sorted Lists | Hard | [Python](07-linked-list/) | NOTES | 
-| xxxx | Reverse Nodes in K Group | Hard | [Python](07-linked-list/) | NOTES | 
+| 0206 | Reverse Linked List | Easy | [Python](06-linked-list/0206-reverse-linked-list/0206-reverse-linked-list.py) | for each node: store next pointer, update pointer to point backwards, move prev & curr pointer forward, return prev (last element is new head) | 
+| 0021 | Merge Two Sorted Lists  | Easy | [Python](06-linked-list/0021-merge-two-sorted-lists/0021-merge-two-sorted-lists.py) | keep pointer to head, while both lists have nodes -> add smaller node to node.next and update list & node, add remaining nodes from non-empty list | 
+| 0141 | Linked List Cycle | Easy | [Python](06-linked-list/0141-linked-list-cycle/0141-linked-list-cycle.py) | slow, fast = head, head, slow pointer moves 1, fast pointer moves 2, if cycle -> fast == slow eventually, otherwise fast == null eventually  | 
+| 0143 | Reorder List | Medium | [Python](06-linked-list/0143-reorder-list/0143-reorder-list.py) | find middle of linked list using slow/fast, break halves apart, reverse second half of list, merge two halves one-by-one (first then second) | 
+| 0019 | Remove Nth Node From End of List | Medium | [Python](06-linked-list/0019-remove-nth-node-from-end-of-list/0019-remove-nth-node-from-end-of-list.py) |  dummy = (0, head) since head can be removed, left, right points to dummy, move right pointer n times, move both pointers until right reaches end, delete node, return dummy.next | 
+| 0138 | Copy List With Random Pointer | Medium | [Python](06-linked-list/0138-copy-list-with-random-pointer/0138-copy-list-with-random-pointer.py) | hash map stores deep copy of node, link value, next pointer, random pointer using hash map | 
+| 0002 | Add Two Numbers | Medium | [Python](06-linked-list/0002-add-two-numbers/0002-add-two-numbers.py) | keep pointer to head, while either list has more digits or carry exists -> add two digits and carry, update carry, save remainder into next node, update all pointers | 
+| 0287 | Find the Duplicate Number | Medium | [Python](06-linked-list/0287-find-the-duplicate-number/0287-find-the-duplicate-number.py) | treat array as linked list where value tells next index, slow, fast = 0, 0, while slow != fast -> find intersection, while start != slow -> find cycle entrance  | 
+| 0146 | LRU Cache | Medium | [Python](06-linked-list/0146-lru-cache/0146-lru-cache.py) | hash map & doubly linked list, left/right nodes point to least/most recently used nodes, remove/insert functions for easy removal/insertion, get key -> move node to right, return value, put key -> create/update key-value pair, insert to right, remove leftmost node if at capacity| 
+| 0023 | Merge K Sorted Lists | Hard | [Python](06-linked-list/0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.py) | mergeList(list1, list2) to merge 2 sorted lists, for each list -> merge two list together & store in more recnet list, return last lists (contains all merged lists) | 
+| xxxx | Reverse Nodes in K Group | Hard | [Python](06-linked-list/) | NOTES | 
 
 ---
 
@@ -156,13 +156,13 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| xxxx | Kth Largest Element in a Stream | Easy | [Python](09-heap-priority-queue/) | NOTES | 
-| xxxx | Last Stone Weight | Easy | [Python](09-heap-priority-queue/) | NOTES | 
-| xxxx | K Closest Points to Origin | Medium | [Python](09-heap-priority-queue/) | NOTES | 
-| xxxx | Kth Largest Element in An Array | Medium | [Python](09-heap-priority-queue/) | NOTES | 
-| xxxx | Task Scheduler | Medium | [Python](09-heap-priority-queue/) | NOTES | 
-| xxxx | Design Twitter | Medium | [Python](09-heap-priority-queue/) | NOTES | 
-| xxxx | Find Median From Data Stream | Hard | [Python](09-heap-priority-queue/) | NOTES | 
+| 0703 | Kth Largest Element in a Stream | Easy | [Python](09-heap-priority-queue/0703-kth-largest-element-in-a-stream/0703-kth-largest-element-in-a-stream.py) | size k minheap of largest element <br> initialize & heapify, maintain MinHeap size == k <br> add(val): push value, if size > k -> pop smallest element, return MinHeap[0] | 
+| 1046 | Last Stone Weight | Easy | [Python](09-heap-priority-queue/1046-last-stone-weight/1046-last-stone-weight.py) | remove two heaviest stones -> MaxHeap <br> convert stones to negative value & heapify, while at least 2 stones, pop two heaviest stones, push negative difference, return remaining weight or 0 | 
+| 0973 | K Closest Points to Origin | Medium | [Python](09-heap-priority-queue/0973-k-closest-points-to-origin/0973-k-closest-points-to-origin.py) | size k maxheap of closest distance <br> for each point, push (-distance, index of point) to MaxHeap, if size > k -> pop max distance, create result list w remaining point indicies | 
+| 0215 | Kth Largest Element in An Array | Medium | [Python](09-heap-priority-queue/0215-kth-largest-element-in-an-array/0215-kth-largest-element-in-an-array.py) | size k minheap of largest elements <br> for each num, push element, if size > k -> pop smallest element, return minHeap[0] <br> heapq.nlargest(k, nums)[-1] returns k largest numbers in descending orders, [-1] takes last aka kth element | 
+| 0621 | Task Scheduler | Medium | [Python](09-heap-priority-queue/0621-task-scheduler/0621-task-scheduler.py) | max heap of remaining count & queue = (count - 1, time) for next available time <br> while either is not empty, if heap -> pop largest remaining count & decrement & add to queue with (count, time + n), if heap empty -> update time to next availble time in queue, if queue[0] is available timing -> remove from queue & push to heap | 
+| 0355 | Design Twitter | Medium | [Python](09-heap-priority-queue/0355-design-twitter/0355-design-twitter.py) | initialize w time, tweetMap = {userId : [time, tweetId]}, followMap = {userId : followee} <br> postTweet: add to tweetMap and increment time <br> follow: add to followMap, unfollow: discard from followMap if followeeId in map <br> getNewsFeed: maxHeap stores (time, tweetId, followeeId, index of tweet), gather lists of users, for each user, push most recent tweet to maxheap with -time and index - 1, pop 10 most recent tweets to result list, pushing user's older tweets if available |
+| 0295 | Find Median From Data Stream | Hard | [Python](09-heap-priority-queue/0295-find-median-from-data-stream/0295-find-median-from-data-stream.py) | initialize MinHeap storing larger #s & MaxHeap storing smaller #s <br> addNum: if num greater than smaller # in large -> add to large, default -> add to small, if one heap larger -> move top element to other heap <br> findMedian: if one heap larger -> median = top of larger heap, if equal -> median = average of both | 
 
 ---
 
