@@ -21,10 +21,10 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | Linked List | 9 | 11 | |
 | Trees | 14 | 15 | |
 | Tries | 3 | 3 | |
-| Heap / Priority Queue | 0 | 7 | |
-| Backtracking | 0 | 10 | |
-| Intervals | 0 | 6 | |
+| Heap / Priority Queue | 7 | 7 | |
+| Intervals | 5 | 6 | |
 | Greedy | 0 | 8 | |
+| Backtracking | 0 | 10 | |
 | Graphs | 0  | 13| |
 | Advanced Graphs | 0 | 6 | |
 | 1-D Dynamic Programming | 0 | 12 | |
@@ -81,9 +81,9 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 |---|---|---|---|---|
 | 0704 | Binary Search | Easy | [Python](04-binary-search/0704-binary-search/0704-binary-search.py) | exact binary search: [0, len(nums) - 1], l <= r, if num[m] too big, m = r - 1, num[m] too small, m = l + 1|
 | 0074 | Search a 2D Matrix | Medium | [Python](04-binary-search/0074-search-a-2d-matrix/0074-search-a-2d-matrix.py) | exact binary search: [0, rows * cols - 1] flatten matrix into sorted array, map mid to matrix w row = m // cols, col = m % cols | 
-| 0875 | Koko Eating Bananas | Medium | [Python](04-binary-search/0875-koko-eating-bananas/0875-koko-eating-bananas.py) | binary search answer array: [1, max(piles)], for each rate -> calculate time to eat all piles, if time < h -> eat less, otherwise eat more | 
+| 0875 | Koko Eating Bananas | Medium | [Python](04-binary-search/0875-koko-eating-bananas/0875-koko-eating-bananas.py) | binary search answer array: [1, max(piles)], for each rate: calculate time to eat all piles, if time < h -> eat less, otherwise eat more | 
 | 0153 | Find Minimum in Rotated Sorted Array | Medium | [Python](04-binary-search/0153-find-minimum-in-rotated-sorted-array/0153-find-minimum-in-rotated-sorted-array.py) | lower bound binary search: [0, len(nums) - 1], l < r, if nums[mid] < nums[r] -> rotated, check right, otherwise nums[mid] sorted array -> check left
-| 0033 | Search in Rotated Sorted Array | Medium | [Python](04-binary-search/0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.py) | exact binary search: [0, len(nums) - 1, l <= r, for rotated/sorted half, compare target to nums[mid] or nums[r] to determine whether to check left/right | 
+| 0033 | Search in Rotated Sorted Array | Medium | [Python](04-binary-search/0033-search-in-rotated-sorted-array/0033-search-in-rotated-sorted-array.py) | exact binary search: [0, len(nums) - 1, l <= r, for rotated/sorted half: compare target to nums[mid] or nums[r] to determine whether to check left/right | 
 | 0981 | Time Based Key Value Store | Medium | [Python](04-binary-search/0981-time-based-key-value-store/0981-time-based-key-value-store.py) | store is dict where key : list of (value, timestamp), find rightmost timestamp <= target: [0, len(store[key]], if m < target -> save, check right, otherwise -> check left | 
 | xxxx | Median of Two Sorted Arrays | Hard | [Python](04-binary-search/) | NOTES | 
 
@@ -115,7 +115,7 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | 0002 | Add Two Numbers | Medium | [Python](06-linked-list/0002-add-two-numbers/0002-add-two-numbers.py) | keep pointer to head, while either list has more digits or carry exists -> add two digits and carry, update carry, save remainder into next node, update all pointers | 
 | 0287 | Find the Duplicate Number | Medium | [Python](06-linked-list/0287-find-the-duplicate-number/0287-find-the-duplicate-number.py) | treat array as linked list where value tells next index, slow, fast = 0, 0, while slow != fast -> find intersection, while start != slow -> find cycle entrance  | 
 | 0146 | LRU Cache | Medium | [Python](06-linked-list/0146-lru-cache/0146-lru-cache.py) | hash map & doubly linked list, left/right nodes point to least/most recently used nodes, remove/insert functions for easy removal/insertion, get key -> move node to right, return value, put key -> create/update key-value pair, insert to right, remove leftmost node if at capacity| 
-| 0023 | Merge K Sorted Lists | Hard | [Python](06-linked-list/0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.py) | mergeList(list1, list2) to merge 2 sorted lists, for each list -> merge two list together & store in more recnet list, return last lists (contains all merged lists) | 
+| 0023 | Merge K Sorted Lists | Hard | [Python](06-linked-list/0023-merge-k-sorted-lists/0023-merge-k-sorted-lists.py) | mergeList(list1, list2) to merge 2 sorted lists, for each list: merge two list together & store in more recnet list, return last lists (contains all merged lists) | 
 | xxxx | Reverse Nodes in K Group | Hard | [Python](06-linked-list/) | NOTES | 
 
 ---
@@ -131,9 +131,9 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | 0100 | Same Tree | Easy | [Python](07-trees/0100-same-tree/0100-same-tree.py) | same tree has identical structure & values, if both nodes are equal/null -> return True, if one node null or values differ -> return False | 
 | 0572 | Subtree of Another Tree | Easy | [Python](07-trees/0572-subtree-of-another-tree/0572-subtree-of-another-tree.py) | fully compare subtree of root == subroot, if identical -> subtree found, otherwise -> search left/right children, edge cases for root & subroot | 
 | 0235 | Lowest Common Ancestor of a Binary Search Tree | Medium | [Python](07-trees/0235-lowest-common-ancestor-of-a-binary-search-tree/0235-lowest-common-ancestor-of-a-binary-search-tree.py) | BST means left subtree < node < right subtree <br> iterative: recruse root tree, if both values < curr -> search left subtree, if both values > curr -> search right subtree, else -> split point aka LCA <br> recurisve: base case: None, same idea as iterative | 
-| 0102 | Binary Tree Level Order Traversal | Medium | [Python](07-trees/0102-binary-tree-level-order-traversal/0102-binary-tree-level-order-traversal.py) | BFS, list stores every level & queue stores values, queue = deque([root]), while queue -> current level = [], for len(queue) nodes -> pop nodes from queue, add value to curr level, push left/chlidren to queue | 
-| 0199 | Binary Tree Right Side View | Medium | [Python](07-trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view.py) | BFS, list stores rightmost node & queue stores values, queue = deque([root]), while queue -> current level = [], for len(queue) nodes -> pop nodes from queue, update rightmost node, push left/chlidren to queue, add rightmost value to list | 
-| 1448 | Count Good Nodes in Binary Tree | Medium | [Python](07-trees/1448-count-good-nodes-in-binary-tree/1448-count-good-nodes-in-binary-tree.py) | good node = no earlier nodes has greater value <br> preorder recrusive DFS, dfs(node, max_value), for every node -> if node >= max value -> add by 1, otherwise -> 0, update max value in path, recurse left/right child w updated max_value, return sum of all values | 
+| 0102 | Binary Tree Level Order Traversal | Medium | [Python](07-trees/0102-binary-tree-level-order-traversal/0102-binary-tree-level-order-traversal.py) | BFS, list stores every level & queue stores values, queue = deque([root]), while queue -> current level = [], for len(queue) nodes: pop nodes from queue, add value to curr level, push left/chlidren to queue | 
+| 0199 | Binary Tree Right Side View | Medium | [Python](07-trees/0199-binary-tree-right-side-view/0199-binary-tree-right-side-view.py) | BFS, list stores rightmost node & queue stores values, queue = deque([root]), while queue -> current level = [], for len(queue) nodes: pop nodes from queue, update rightmost node, push left/chlidren to queue, add rightmost value to list | 
+| 1448 | Count Good Nodes in Binary Tree | Medium | [Python](07-trees/1448-count-good-nodes-in-binary-tree/1448-count-good-nodes-in-binary-tree.py) | good node = no earlier nodes has greater value <br> preorder recrusive DFS, dfs(node, max_value), for every node: if node >= max value -> add by 1, otherwise -> 0, update max value in path, recurse left/right child w updated max_value, return sum of all values | 
 | 0098 | Validate Binary Search Tree | Medium | [Python](07-trees/0098-validate-binary-search-tree/0098-validate-binary-search-tree.py) | top down recursive DFS, dfs(node, low, high), valid BST has nodes (low, high), check left subtree w node less than parent, check right subtree w node greater than parent, tighten bounds while recursing tree | 
 | 0230 | Kth Smallest Element in a BST | Medium | [Python](07-trees/0230-kth-smallest-element-in-a-bst/0230-kth-smallest-element-in-a-bst.py) | inorder DFS: visit left subtree, check if kth element, update kth value, decrement count, visit right subtree   | 
 | 0105 | Construct Binary Tree From Preorder and Inorder Traversal | Medium | [Python](07-trees/0105-construct-binary-tree-from-preorder-and-inorder-traversal/0105-construct-binary-tree-from-preorder-and-inorder-traversal.py) | preorder tells first node, inorder tells left/right subtree <br> top down recursive DFS: time = O(n^2), find position of preorder[0] in inorder, build left/right subtree w new preorder/inorder slicing <br> top down recursive DFS + hashmap: time = O(n), hashmap stores {value, index} for inorder list O(1) time, preIndex tracks next preorder value, dfs(left, right), get root value, create node, look up inorder index, build left/right with inorder index <br> top down recursive DFS: O(n), preIndex = inIndex = 0, dfs(limit), if no more nodes or limit met -> return None, create node, build left/right with updated limit values | 
@@ -146,9 +146,9 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 
 | # | Problem | Difficulty | Solution | Notes |
 |---|---|---|---|---|
-| 0208 | Implement Trie Prefix Tree | Medium | [Python](08-tries/0208-implement-trie-prefix-tree/0208-implement-trie-prefix-tree.py) | initialize root = TrieNode <br> insert(word): for each character, if not in tree -> create trienode, iterate character by character, mark endOfWord <br> search(word): if char not in tree, word does not exist, return if endOfWord <br> startsWith(word): if char not in tree, prefix does not exist, return if all matching | 
+| 0208 | Implement Trie Prefix Tree | Medium | [Python](08-tries/0208-implement-trie-prefix-tree/0208-implement-trie-prefix-tree.py) | initialize root = TrieNode <br> insert(word): for each character: if not in tree -> create trienode, iterate character by character, mark endOfWord <br> search(word): if char not in tree, word does not exist, return if endOfWord <br> startsWith(word): if char not in tree, prefix does not exist, return if all matching | 
 | 0211 | Design Add and Search Words Data Structure | Medium | [Python](08-tries/0211-design-add-and-search-words-data-structure/0211-design-add-and-search-words-data-structure.py) | search(word) uses recursive dfs(j, root) where j = index of word, root = current TrieNode, compare every character, if "." -> iterate EVERY child w dfs(i + 1, child), True if valid else False, if regular character not exist -> False | 
-| 0212 | Word Search II | Hard | [Python](08-tries/0212-word-search-ii/0212-word-search-ii.py) | class trienode w index = index of word (mark end) or -1 <br> create trie of all words, for all row/col, dfs() <br> dfs(r, c, node): if out of bounds or board[r][c] already visited or not a trie children -> return, iterate to child, if end of word -> add to result & mark index = -1, mark board[r][c] as visited, dfs() 4 neighbors, restore board[r][c], prune for further optimization (if child trienode has no children -> remove from parent) | 
+| 0212 | Word Search II | Hard | [Python](08-tries/0212-word-search-ii/0212-word-search-ii.py) | class trienode w index = index of word (mark end) or -1 <br> create trie of all words, for all row/col: dfs() <br> dfs(r, c, node): if out of bounds or board[r][c] already visited or not a trie children -> return, iterate to child, if end of word -> add to result & mark index = -1, mark board[r][c] as visited, dfs() 4 neighbors, restore board[r][c], prune for further optimization (if child trienode has no children -> remove from parent) | 
 
 ---
 
@@ -158,11 +158,39 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 |---|---|---|---|---|
 | 0703 | Kth Largest Element in a Stream | Easy | [Python](09-heap-priority-queue/0703-kth-largest-element-in-a-stream/0703-kth-largest-element-in-a-stream.py) | size k minheap of largest element <br> initialize & heapify, maintain MinHeap size == k <br> add(val): push value, if size > k -> pop smallest element, return MinHeap[0] | 
 | 1046 | Last Stone Weight | Easy | [Python](09-heap-priority-queue/1046-last-stone-weight/1046-last-stone-weight.py) | remove two heaviest stones -> MaxHeap <br> convert stones to negative value & heapify, while at least 2 stones, pop two heaviest stones, push negative difference, return remaining weight or 0 | 
-| 0973 | K Closest Points to Origin | Medium | [Python](09-heap-priority-queue/0973-k-closest-points-to-origin/0973-k-closest-points-to-origin.py) | size k maxheap of closest distance <br> for each point, push (-distance, index of point) to MaxHeap, if size > k -> pop max distance, create result list w remaining point indicies | 
-| 0215 | Kth Largest Element in An Array | Medium | [Python](09-heap-priority-queue/0215-kth-largest-element-in-an-array/0215-kth-largest-element-in-an-array.py) | size k minheap of largest elements <br> for each num, push element, if size > k -> pop smallest element, return minHeap[0] <br> heapq.nlargest(k, nums)[-1] returns k largest numbers in descending orders, [-1] takes last aka kth element | 
+| 0973 | K Closest Points to Origin | Medium | [Python](09-heap-priority-queue/0973-k-closest-points-to-origin/0973-k-closest-points-to-origin.py) | size k maxheap of closest distance <br> for each point: push (-distance, index of point) to MaxHeap, if size > k -> pop max distance, create result list w remaining point indicies | 
+| 0215 | Kth Largest Element in An Array | Medium | [Python](09-heap-priority-queue/0215-kth-largest-element-in-an-array/0215-kth-largest-element-in-an-array.py) | size k minheap of largest elements <br> for each num: push element, if size > k -> pop smallest element, return minHeap[0] <br> heapq.nlargest(k, nums)[-1] returns k largest numbers in descending orders, [-1] takes last aka kth element | 
 | 0621 | Task Scheduler | Medium | [Python](09-heap-priority-queue/0621-task-scheduler/0621-task-scheduler.py) | max heap of remaining count & queue = (count - 1, time) for next available time <br> while either is not empty, if heap -> pop largest remaining count & decrement & add to queue with (count, time + n), if heap empty -> update time to next availble time in queue, if queue[0] is available timing -> remove from queue & push to heap | 
-| 0355 | Design Twitter | Medium | [Python](09-heap-priority-queue/0355-design-twitter/0355-design-twitter.py) | initialize w time, tweetMap = {userId : [time, tweetId]}, followMap = {userId : followee} <br> postTweet: add to tweetMap and increment time <br> follow: add to followMap, unfollow: discard from followMap if followeeId in map <br> getNewsFeed: maxHeap stores (time, tweetId, followeeId, index of tweet), gather lists of users, for each user, push most recent tweet to maxheap with -time and index - 1, pop 10 most recent tweets to result list, pushing user's older tweets if available |
+| 0355 | Design Twitter | Medium | [Python](09-heap-priority-queue/0355-design-twitter/0355-design-twitter.py) | initialize w time, tweetMap = {userId : [time, tweetId]}, followMap = {userId : followee} <br> postTweet: add to tweetMap and increment time <br> follow: add to followMap, unfollow: discard from followMap if followeeId in map <br> getNewsFeed: maxHeap stores (time, tweetId, followeeId, index of tweet), gather lists of users, for each user: push most recent tweet to maxheap with -time and index - 1, pop 10 most recent tweets to result list, pushing user's older tweets if available |
 | 0295 | Find Median From Data Stream | Hard | [Python](09-heap-priority-queue/0295-find-median-from-data-stream/0295-find-median-from-data-stream.py) | initialize MinHeap storing larger #s & MaxHeap storing smaller #s <br> addNum: if num greater than smaller # in large -> add to large, default -> add to small, if one heap larger -> move top element to other heap <br> findMedian: if one heap larger -> median = top of larger heap, if equal -> median = average of both | 
+
+---
+
+## Intervals
+
+| # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
+| 0057 | Insert Interval | Medium | [Python](10-intervals/) | while loop preferred (1): add all intervals[i] before newInterval, (2): intervals[i] overlaps with newInterval, expand newInterval to cover both ranges, (3): add all intervals[i] after newInterval | 
+| 0056 | Merge Intervals | Medium | [Python](10-intervals/) | sort by start time, if overlap (start before last end) with last added interval -> merge & update end, otherwise -> append new interval | 
+| 0435 | Non Overlapping Intervals | Medium | [Python](10-intervals/) | sort by end time, remove = 0, lastEnd = end of first interval, if no overlap -> update last end, else interval overlaps -> remove interval | 
+| 0252 |  Meeting Rooms | Easy | [Python](10-intervals/) | sort by start time, for each interval: if previous meeting ends after current one starts -> overlap, return False  | 
+| 0253 | Meeting Rooms II | Medium | [Python](10-intervals/) | two pointers: create sorted start/end time array, rooms = 0, endPointer = 0, for startPointer: if meeting ends before another starts -> free room, endPointer += 1, otherwise meeting starts before another ends -> need new room, rooms += 1  | 
+| XXXX | Minimum Interval to Include Each Query | Hard | [Python](10-intervals/) | NOTES | 
+
+---
+
+## Greedy
+
+| # | Problem | Difficulty | Solution | Notes |
+|---|---|---|---|---|
+| xxxx | Maximum Subarray | Medium | [Python]() | NOTES | 
+| xxxx | Jump Game | Medium | [Python]() | NOTES | 
+| xxxx | Jump Game II | Medium | [Python]() | NOTES | 
+| xxxx | Gas Station | Medium | [Python]() | NOTES | 
+| xxxx | Hand of Straights | Medium | [Python]() | NOTES | 
+| xxxx | Merge Triplets to Form Target Triplet | Medium | [Python]() | NOTES | 
+| xxxx | Partition Labels | Medium | [Python]() | NOTES | 
+| xxxx | Valid Parenthesis String | Medium | [Python]() | NOTES | 
 
 ---
 
@@ -180,34 +208,6 @@ This repository tracks my LeetCode solutions and notes for technical interview p
 | xxxx | Palindrom Partitioning | Medium | [Python]() | NOTES | 
 | xxxx | Letter Combinations of a Phone Number | Medium | [Python]() | NOTES | 
 | xxxx | N Queens | Hard | [Python]() | NOTES | 
-
----
-
-## Intervals
-
-| # | Problem | Difficulty | Solution | Notes |
-|---|---|---|---|---|
-| Insert Interval | Medium | DIFFICULTY | [Python]() | NOTES | 
-| Merge Intervals | Medium | DIFFICULTY | [Python]() | NOTES | 
-| Non Overlapping Intervals | Medium | DIFFICULTY | [Python]() | NOTES | 
-| Meeting Rooms | Easy | DIFFICULTY | [Python]() | NOTES | 
-| Meeting Rooms II | Medium | DIFFICULTY | [Python]() | NOTES | 
-| Minimum Interval to Include Each Query | Hard | DIFFICULTY | [Python]() | NOTES | 
-
----
-
-## Greedy
-
-| # | Problem | Difficulty | Solution | Notes |
-|---|---|---|---|---|
-| xxxx | Maximum Subarray | Medium | [Python]() | NOTES | 
-| xxxx | Jump Game | Medium | [Python]() | NOTES | 
-| xxxx | Jump Game II | Medium | [Python]() | NOTES | 
-| xxxx | Gas Station | Medium | [Python]() | NOTES | 
-| xxxx | Hand of Straights | Medium | [Python]() | NOTES | 
-| xxxx | Merge Triplets to Form Target Triplet | Medium | [Python]() | NOTES | 
-| xxxx | Partition Labels | Medium | [Python]() | NOTES | 
-| xxxx | Valid Parenthesis String | Medium | [Python]() | NOTES | 
 
 ---
 
