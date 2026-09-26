@@ -1,21 +1,19 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
-        # valid anagram if same letters
-        # can use dict mapping # letters
-        # create Counter of each and compare
+        # check if two strings contain same # of characters
 
-        ## QUICK AND EASY
-        return Counter(s) == Counter(t)
-
-        ## MANUALLY
-        if len(s) != len(t):
+        # hash map | map occurence of letter to num, check for equality
+        # time: O(n + m), space: O(1)
+        if len(s) != len(t): 
             return False
-        
-        countS = {}
-        countT = {}
 
+        countS, countT = {}, {}
         for i in range(len(s)):
-            countS[s[i]] = countS.get(s[i], 0) + 1
-            countT[t[i]] = countT.get(t[i], 0) + 1
+            countS[s[i]] = 1 + countS.get(s[i], 0)
+            countT[t[i]] = 1 + countT.get(t[i], 0)
         return countS == countT
+
+        # sort | sort string and compare
+        # O(nlogn + mlogm), space: O( + m)
+        return sorted(s) == sorted(t)
         
